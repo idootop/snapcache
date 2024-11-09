@@ -1,5 +1,7 @@
 # SnapCache
 
+> ⚠️ This package is no longer maintained.
+
 <a href="https://pypi.python.org/pypi/snapcache"><img src="http://img.shields.io/pypi/v/snapcache.svg" alt="Latest version on PyPI"></a> <a href="https://pypi.python.org/pypi/snapcache"><img src="https://img.shields.io/pypi/pyversions/snapcache.svg" alt="Compatible Python versions."></a>
 
 Snap-in memory caching for Python, no persistence, just pure function result caching.
@@ -8,7 +10,7 @@ Snap-in memory caching for Python, no persistence, just pure function result cac
 
 Python’s built-in `functools.lru_cache` offers an easy way to cache function results, but it has limitations. For example, attempting to cache complex objects like `NumPy` arrays results in a `TypeError: unhashable type: 'numpy.ndarray'`.
 
-**SnapCache** addresses this issue by offering a similar simple decorator interface while supporting caching for any data structure ✨.
+~~**SnapCache** addresses this issue by offering a similar simple decorator interface while supporting caching for any data structure ✨.~~
 
 ## Installation
 
